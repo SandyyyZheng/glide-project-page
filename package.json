@@ -1,0 +1,9 @@
+{
+  "name": "glide-project-page",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "python3 preview.py",
+    "preview": "python3 preview.py"
+  }
+}

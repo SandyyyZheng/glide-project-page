@@ -1,0 +1,79 @@
+[
+  {
+    "game_name": "Fortnite",
+    "genre": "Action",
+    "subgenre": "Battle Royale",
+    "video_name": "8ngm1m.mp4",
+    "no_bugs": false,
+    "bugs": [
+      "The shopping cart unexpectedly launches into the air at a high velocity, resulting in the characters and the cart being airborne above the terrain. This indicates a glitch in the game's physics engine related to objects like the shopping cart."
+    ],
+    "time_nodes": [
+      [
+        [
+          4,
+          15
+        ]
+      ]
+    ]
+  },
+  {
+    "game_name": "The Sims 4",
+    "genre": "Simulation",
+    "subgenre": "Life Simulation",
+    "video_name": "haj831.mp4",
+    "no_bugs": false,
+    "bugs": [
+      "The character suddenly begins performing impossible acrobatic movements, such as flipping and twisting in mid-air while partially passing through the refrigerator and countertop. This suggests a glitch in the character animation."
+    ],
+    "time_nodes": [
+      [
+        [
+          0,
+          7
+        ],
+        [
+          9,
+          15
+        ],
+        [
+          18,
+          24
+        ]
+      ]
+    ]
+  },
+  {
+    "game_name": "Steep",
+    "genre": "Simulation",
+    "subgenre": "Sports",
+    "video_name": "5dq755.mp4",
+    "no_bugs": false,
+    "bugs": [
+      "The character clips through solid objects such as wooden house structures, indicating a glitch in collision detection.",
+      "The character model suddenly teleports, the body model deforms, limbs are misaligned or stretched, indicating a glitch in the physical location of the character."
+    ],
+    "time_nodes": [
+      [
+        [
+          0,
+          5
+        ],
+        [
+          12,
+          15
+        ]
+      ],
+      [
+        [
+          5,
+          6
+        ],
+        [
+          8,
+          15
+        ]
+      ]
+    ]
+  }
+]
