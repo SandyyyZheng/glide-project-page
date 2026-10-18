@@ -103,3 +103,6 @@ body{isolation:isolate}.ambient-glitch{position:fixed;inset:0;z-index:-1;pointer
 .ambient-fragment{animation-timing-function:steps(1,end)}@keyframes ambient-packet{0%,50%,100%{opacity:0;transform:translate3d(0,0,0);clip-path:inset(0)}52%{opacity:.85;transform:translate3d(7px,0,0);clip-path:inset(0 12% 0 0)}54%{opacity:0}57%{opacity:.65;transform:translate3d(-6px,2px,0);clip-path:inset(0 0 0 24%)}59%{opacity:0}63%{opacity:.8;transform:translate3d(11px,-1px,0);clip-path:inset(0 35% 0 0)}65%{opacity:0}69%{opacity:.45;transform:translate3d(-3px,1px,0);clip-path:inset(0 8% 0 17%)}71%{opacity:0;transform:translate3d(0,0,0)}}
 
 .ambient-sweep-purple{background:linear-gradient(0deg,transparent,#9b7bb515 49%,#9b7bb52d 50%,transparent 53%);animation-duration:18s;animation-delay:-7s;animation-direction:reverse}
+
+/* Highlight only the contribution names, like a light marker stroke. */
+.section-intro .contribution-lead{font-weight:700;color:#35432d}.name-highlight{color:inherit;font:inherit;padding:0 .12em;margin:0 -.02em;background:none;-webkit-box-decoration-break:clone;box-decoration-break:clone}.name-highlight-green{background-image:linear-gradient(177deg,transparent 34%,#b7db8680 38%,#c5e39b80 87%,transparent 91%)}.name-highlight-purple{background-image:linear-gradient(177deg,transparent 34%,#c7b0e280 38%,#d6c4ea80 87%,transparent 91%)}
