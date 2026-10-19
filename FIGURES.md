@@ -16,3 +16,7 @@
 网页 Table 1 对应论文 Table 3，完整数值在 `data/results.json`，图注与正文在 `index.html`。
 
 统计区圆环、词云为代码绘制，不依赖已删除的 Figure 7/8 位图。分类数据位于 `benchmark-viz.js`。词云词汇及参考视觉层级位于 `data/wordcloud-layout.json`；其坐标与尺寸仅为论文原图的参考排版数据，不是语料词频。排版使用本地 d3-cloud。
+
+## Conference poster
+
+`assets/figures/poster.png` 展示在 Results 与 Citation 之间的 Poster 板块，保留原图并支持点击放大。海报不占用论文图片编号。展示信息由作者提供：November 12, 2026 · Main Conference · 10:30–12:30 · Rio de Janeiro, Brazil。
